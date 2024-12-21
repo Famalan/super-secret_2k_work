@@ -1,0 +1,7 @@
+/Users/vladimirmarkov/kg_xexe/super-secret_2k_work/build/CMakeFiles/lab1.dir
+/Users/vladimirmarkov/kg_xexe/super-secret_2k_work/build/CMakeFiles/lab2.dir
+/Users/vladimirmarkov/kg_xexe/super-secret_2k_work/build/CMakeFiles/lab3.dir
+/Users/vladimirmarkov/kg_xexe/super-secret_2k_work/build/CMakeFiles/lab4.dir
+/Users/vladimirmarkov/kg_xexe/super-secret_2k_work/build/CMakeFiles/lab5.dir
+/Users/vladimirmarkov/kg_xexe/super-secret_2k_work/build/CMakeFiles/edit_cache.dir
+/Users/vladimirmarkov/kg_xexe/super-secret_2k_work/build/CMakeFiles/rebuild_cache.dir

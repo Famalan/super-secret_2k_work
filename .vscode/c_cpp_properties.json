@@ -2,9 +2,7 @@
     "configurations": [
         {
             "name": "Mac",
-            "includePath": [
-                "${workspaceFolder}/**"
-            ],
+            "includePath": ["${workspaceFolder}/**"],
             "defines": [],
             "macFrameworkPath": [
                 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"

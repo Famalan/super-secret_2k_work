@@ -243,6 +243,15 @@ computer_graphics_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 computer_graphics_SOURCE_DIR:STATIC=/Users/vladimirmarkov/kg_xexe/super-secret_2k_work
 
+//Value Computed by CMake
+graphics_labs_BINARY_DIR:STATIC=/Users/vladimirmarkov/kg_xexe/super-secret_2k_work/build
+
+//Value Computed by CMake
+graphics_labs_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+graphics_labs_SOURCE_DIR:STATIC=/Users/vladimirmarkov/kg_xexe/super-secret_2k_work
+
 
 ########################
 # INTERNAL cache entries

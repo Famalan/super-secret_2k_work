@@ -117,76 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named lab1
+# Target rules for targets named your_program
 
 # Build rule for target.
-lab1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab1
-.PHONY : lab1
+your_program: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 your_program
+.PHONY : your_program
 
 # fast build rule for target.
-lab1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/build
-.PHONY : lab1/fast
-
-#=============================================================================
-# Target rules for targets named lab2
-
-# Build rule for target.
-lab2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab2
-.PHONY : lab2
-
-# fast build rule for target.
-lab2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/build
-.PHONY : lab2/fast
-
-#=============================================================================
-# Target rules for targets named lab3
-
-# Build rule for target.
-lab3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab3
-.PHONY : lab3
-
-# fast build rule for target.
-lab3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/build
-.PHONY : lab3/fast
-
-#=============================================================================
-# Target rules for targets named lab4
-
-# Build rule for target.
-lab4: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab4
-.PHONY : lab4
-
-# fast build rule for target.
-lab4/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab4.dir/build.make CMakeFiles/lab4.dir/build
-.PHONY : lab4/fast
-
-#=============================================================================
-# Target rules for targets named lab5
-
-# Build rule for target.
-lab5: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab5
-.PHONY : lab5
-
-# fast build rule for target.
-lab5/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/build
-.PHONY : lab5/fast
+your_program/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/your_program.dir/build.make CMakeFiles/your_program.dir/build
+.PHONY : your_program/fast
 
 lab1_v10.o: lab1_v10.cpp.o
 .PHONY : lab1_v10.o
 
 # target to build an object file
 lab1_v10.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/lab1_v10.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/your_program.dir/build.make CMakeFiles/your_program.dir/lab1_v10.cpp.o
 .PHONY : lab1_v10.cpp.o
 
 lab1_v10.i: lab1_v10.cpp.i
@@ -194,7 +142,7 @@ lab1_v10.i: lab1_v10.cpp.i
 
 # target to preprocess a source file
 lab1_v10.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/lab1_v10.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/your_program.dir/build.make CMakeFiles/your_program.dir/lab1_v10.cpp.i
 .PHONY : lab1_v10.cpp.i
 
 lab1_v10.s: lab1_v10.cpp.s
@@ -202,104 +150,8 @@ lab1_v10.s: lab1_v10.cpp.s
 
 # target to generate assembly for a file
 lab1_v10.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/lab1_v10.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/your_program.dir/build.make CMakeFiles/your_program.dir/lab1_v10.cpp.s
 .PHONY : lab1_v10.cpp.s
-
-lab2_v11.o: lab2_v11.cpp.o
-.PHONY : lab2_v11.o
-
-# target to build an object file
-lab2_v11.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/lab2_v11.cpp.o
-.PHONY : lab2_v11.cpp.o
-
-lab2_v11.i: lab2_v11.cpp.i
-.PHONY : lab2_v11.i
-
-# target to preprocess a source file
-lab2_v11.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/lab2_v11.cpp.i
-.PHONY : lab2_v11.cpp.i
-
-lab2_v11.s: lab2_v11.cpp.s
-.PHONY : lab2_v11.s
-
-# target to generate assembly for a file
-lab2_v11.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/lab2_v11.cpp.s
-.PHONY : lab2_v11.cpp.s
-
-lab3_v3.o: lab3_v3.cpp.o
-.PHONY : lab3_v3.o
-
-# target to build an object file
-lab3_v3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/lab3_v3.cpp.o
-.PHONY : lab3_v3.cpp.o
-
-lab3_v3.i: lab3_v3.cpp.i
-.PHONY : lab3_v3.i
-
-# target to preprocess a source file
-lab3_v3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/lab3_v3.cpp.i
-.PHONY : lab3_v3.cpp.i
-
-lab3_v3.s: lab3_v3.cpp.s
-.PHONY : lab3_v3.s
-
-# target to generate assembly for a file
-lab3_v3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/lab3_v3.cpp.s
-.PHONY : lab3_v3.cpp.s
-
-lab4_v12.o: lab4_v12.cpp.o
-.PHONY : lab4_v12.o
-
-# target to build an object file
-lab4_v12.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab4.dir/build.make CMakeFiles/lab4.dir/lab4_v12.cpp.o
-.PHONY : lab4_v12.cpp.o
-
-lab4_v12.i: lab4_v12.cpp.i
-.PHONY : lab4_v12.i
-
-# target to preprocess a source file
-lab4_v12.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab4.dir/build.make CMakeFiles/lab4.dir/lab4_v12.cpp.i
-.PHONY : lab4_v12.cpp.i
-
-lab4_v12.s: lab4_v12.cpp.s
-.PHONY : lab4_v12.s
-
-# target to generate assembly for a file
-lab4_v12.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab4.dir/build.make CMakeFiles/lab4.dir/lab4_v12.cpp.s
-.PHONY : lab4_v12.cpp.s
-
-lab5_v5.o: lab5_v5.cpp.o
-.PHONY : lab5_v5.o
-
-# target to build an object file
-lab5_v5.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/lab5_v5.cpp.o
-.PHONY : lab5_v5.cpp.o
-
-lab5_v5.i: lab5_v5.cpp.i
-.PHONY : lab5_v5.i
-
-# target to preprocess a source file
-lab5_v5.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/lab5_v5.cpp.i
-.PHONY : lab5_v5.cpp.i
-
-lab5_v5.s: lab5_v5.cpp.s
-.PHONY : lab5_v5.s
-
-# target to generate assembly for a file
-lab5_v5.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/lab5_v5.cpp.s
-.PHONY : lab5_v5.cpp.s
 
 # Help Target
 help:
@@ -309,26 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... lab1"
-	@echo "... lab2"
-	@echo "... lab3"
-	@echo "... lab4"
-	@echo "... lab5"
+	@echo "... your_program"
 	@echo "... lab1_v10.o"
 	@echo "... lab1_v10.i"
 	@echo "... lab1_v10.s"
-	@echo "... lab2_v11.o"
-	@echo "... lab2_v11.i"
-	@echo "... lab2_v11.s"
-	@echo "... lab3_v3.o"
-	@echo "... lab3_v3.i"
-	@echo "... lab3_v3.s"
-	@echo "... lab4_v12.o"
-	@echo "... lab4_v12.i"
-	@echo "... lab4_v12.s"
-	@echo "... lab5_v5.o"
-	@echo "... lab5_v5.i"
-	@echo "... lab5_v5.s"
 .PHONY : help
 
 

@@ -63,19 +63,11 @@ CMAKE_BINARY_DIR = /Users/vladimirmarkov/kg_xexe/super-secret_2k_work/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/lab1.dir/all
-all: CMakeFiles/lab2.dir/all
-all: CMakeFiles/lab3.dir/all
-all: CMakeFiles/lab4.dir/all
-all: CMakeFiles/lab5.dir/all
+all: CMakeFiles/your_program.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/lab1.dir/codegen
-codegen: CMakeFiles/lab2.dir/codegen
-codegen: CMakeFiles/lab3.dir/codegen
-codegen: CMakeFiles/lab4.dir/codegen
-codegen: CMakeFiles/lab5.dir/codegen
+codegen: CMakeFiles/your_program.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -83,167 +75,39 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/lab1.dir/clean
-clean: CMakeFiles/lab2.dir/clean
-clean: CMakeFiles/lab3.dir/clean
-clean: CMakeFiles/lab4.dir/clean
-clean: CMakeFiles/lab5.dir/clean
+clean: CMakeFiles/your_program.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/lab1.dir
+# Target rules for target CMakeFiles/your_program.dir
 
 # All Build rule for target.
-CMakeFiles/lab1.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vladimirmarkov/kg_xexe/super-secret_2k_work/build/CMakeFiles --progress-num=1,2 "Built target lab1"
-.PHONY : CMakeFiles/lab1.dir/all
+CMakeFiles/your_program.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/your_program.dir/build.make CMakeFiles/your_program.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/your_program.dir/build.make CMakeFiles/your_program.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vladimirmarkov/kg_xexe/super-secret_2k_work/build/CMakeFiles --progress-num=1,2 "Built target your_program"
+.PHONY : CMakeFiles/your_program.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/lab1.dir/rule: cmake_check_build_system
+CMakeFiles/your_program.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vladimirmarkov/kg_xexe/super-secret_2k_work/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lab1.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/your_program.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vladimirmarkov/kg_xexe/super-secret_2k_work/build/CMakeFiles 0
-.PHONY : CMakeFiles/lab1.dir/rule
+.PHONY : CMakeFiles/your_program.dir/rule
 
 # Convenience name for target.
-lab1: CMakeFiles/lab1.dir/rule
-.PHONY : lab1
+your_program: CMakeFiles/your_program.dir/rule
+.PHONY : your_program
 
 # codegen rule for target.
-CMakeFiles/lab1.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/codegen
-.PHONY : CMakeFiles/lab1.dir/codegen
+CMakeFiles/your_program.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/your_program.dir/build.make CMakeFiles/your_program.dir/codegen
+.PHONY : CMakeFiles/your_program.dir/codegen
 
 # clean rule for target.
-CMakeFiles/lab1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/clean
-.PHONY : CMakeFiles/lab1.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/lab2.dir
-
-# All Build rule for target.
-CMakeFiles/lab2.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vladimirmarkov/kg_xexe/super-secret_2k_work/build/CMakeFiles --progress-num=3,4 "Built target lab2"
-.PHONY : CMakeFiles/lab2.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/lab2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vladimirmarkov/kg_xexe/super-secret_2k_work/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lab2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vladimirmarkov/kg_xexe/super-secret_2k_work/build/CMakeFiles 0
-.PHONY : CMakeFiles/lab2.dir/rule
-
-# Convenience name for target.
-lab2: CMakeFiles/lab2.dir/rule
-.PHONY : lab2
-
-# codegen rule for target.
-CMakeFiles/lab2.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/codegen
-.PHONY : CMakeFiles/lab2.dir/codegen
-
-# clean rule for target.
-CMakeFiles/lab2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/clean
-.PHONY : CMakeFiles/lab2.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/lab3.dir
-
-# All Build rule for target.
-CMakeFiles/lab3.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vladimirmarkov/kg_xexe/super-secret_2k_work/build/CMakeFiles --progress-num=5,6 "Built target lab3"
-.PHONY : CMakeFiles/lab3.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/lab3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vladimirmarkov/kg_xexe/super-secret_2k_work/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lab3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vladimirmarkov/kg_xexe/super-secret_2k_work/build/CMakeFiles 0
-.PHONY : CMakeFiles/lab3.dir/rule
-
-# Convenience name for target.
-lab3: CMakeFiles/lab3.dir/rule
-.PHONY : lab3
-
-# codegen rule for target.
-CMakeFiles/lab3.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/codegen
-.PHONY : CMakeFiles/lab3.dir/codegen
-
-# clean rule for target.
-CMakeFiles/lab3.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab3.dir/build.make CMakeFiles/lab3.dir/clean
-.PHONY : CMakeFiles/lab3.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/lab4.dir
-
-# All Build rule for target.
-CMakeFiles/lab4.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab4.dir/build.make CMakeFiles/lab4.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab4.dir/build.make CMakeFiles/lab4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vladimirmarkov/kg_xexe/super-secret_2k_work/build/CMakeFiles --progress-num=7,8 "Built target lab4"
-.PHONY : CMakeFiles/lab4.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/lab4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vladimirmarkov/kg_xexe/super-secret_2k_work/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lab4.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vladimirmarkov/kg_xexe/super-secret_2k_work/build/CMakeFiles 0
-.PHONY : CMakeFiles/lab4.dir/rule
-
-# Convenience name for target.
-lab4: CMakeFiles/lab4.dir/rule
-.PHONY : lab4
-
-# codegen rule for target.
-CMakeFiles/lab4.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab4.dir/build.make CMakeFiles/lab4.dir/codegen
-.PHONY : CMakeFiles/lab4.dir/codegen
-
-# clean rule for target.
-CMakeFiles/lab4.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab4.dir/build.make CMakeFiles/lab4.dir/clean
-.PHONY : CMakeFiles/lab4.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/lab5.dir
-
-# All Build rule for target.
-CMakeFiles/lab5.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vladimirmarkov/kg_xexe/super-secret_2k_work/build/CMakeFiles --progress-num=9,10 "Built target lab5"
-.PHONY : CMakeFiles/lab5.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/lab5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vladimirmarkov/kg_xexe/super-secret_2k_work/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lab5.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vladimirmarkov/kg_xexe/super-secret_2k_work/build/CMakeFiles 0
-.PHONY : CMakeFiles/lab5.dir/rule
-
-# Convenience name for target.
-lab5: CMakeFiles/lab5.dir/rule
-.PHONY : lab5
-
-# codegen rule for target.
-CMakeFiles/lab5.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/codegen
-.PHONY : CMakeFiles/lab5.dir/codegen
-
-# clean rule for target.
-CMakeFiles/lab5.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab5.dir/build.make CMakeFiles/lab5.dir/clean
-.PHONY : CMakeFiles/lab5.dir/clean
+CMakeFiles/your_program.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/your_program.dir/build.make CMakeFiles/your_program.dir/clean
+.PHONY : CMakeFiles/your_program.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
